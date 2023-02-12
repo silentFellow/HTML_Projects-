@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      height: 100vh;
+      background-color: #121820;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    select {
+      background-color: whitesmoke;
+      font-size: 18px;
+      padding: 9px;
+      border-radius: 15px;
+    }
+    select:hover {
+      background-color: black;
+      color: whitesmoke;
+    }
+    #btn {
+      padding: 3px;
+      font-size: 15px;
+      font-family: monospace;
+      margin-left: 24px;
+      background-color: black;
+      color: whitesmoke;
+      border-radius: 50%;
+    }
+    #btn:hover {
+      background-color: whitesmoke;
+      color: black;
+    }
+    .ans {
+      height: 30px;
+      width: 240px;
+      margin-top: 9px;
+      background-color: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 21px;
+      font-family: cursive;
+      padding: 3px;
+      position: relative;
+    }
+    .score {
+      width: 30%;
+      padding: 3px;
+      background-color: black;
+      color: gray;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 0;
+    }
+    .content {
+      width: 70%;
+      padding: 3px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+      position: absolute;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <select class="select">
+      <option name="select" value="Rock">Rock</option>
+      <option name="select" value="Paper">Paper</option>
+      <option name="select" value="Siscor">Siscor</option>
+    </select>
+
+    <br><br>
+
+    <input type="button" value="RPS" id="btn">
+  </form>
+
+  <div class="ans">
+    <div class="content">
+
+    </div>
+    <div class="score">
+      <h6>SCORE: 0</h6>
+    </div>
+  </div>
+
+  <script src="forFun.js"></script>
+</body>
+</html>
