@@ -50,6 +50,7 @@ form input {
     margin: 12px;
     border: 2px rgba(255,255,255,0.9) solid;
     padding-left: 9px;
+    color: whitesmoke;
 }
 
 .btn {
