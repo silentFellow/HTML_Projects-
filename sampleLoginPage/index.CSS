@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: 1px whitesmoke solid;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.8rem;
+    margin-top: 12px;
+    margin-right: 18px;
+    font-size: 15px;
+}
+
+li {
+    padding: 9px;
+}
+
+nav li:hover {
+    background-color: whitesmoke;
+    color: red;
+}
+
+article {
+    height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("nature.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    background: transparent;
+    min-height: 36px;
+    width: 100%;
+    margin: 12px;
+    border: 2px rgba(255,255,255,0.9) solid;
+    padding-left: 9px;
+}
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+    color: aqua;
+    min-height: 24px;
+    width: 33%;
+}
+
+#btn1 {
+    margin-left: 24px;
+}
+
+.btn:hover {
+    background: rgba(255,255,255,0.6);
+    color: black;
+}
